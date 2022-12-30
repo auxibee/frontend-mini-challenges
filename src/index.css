@@ -16,9 +16,6 @@ a {
   color: var(--primary-color);
   text-decoration: inherit;
 }
-a:hover {
-  color: var(--primary-color-light);
-}
 
 .container {
   width: 1024px;

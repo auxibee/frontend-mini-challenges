@@ -1,0 +1,10 @@
+.telephone-input input {
+  color: #333;
+  padding: 5px 5px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.telephone-input input:focus {
+  outline: 0;
+}

@@ -1,0 +1,17 @@
+header {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 10px 15px;
+}
+
+header a {
+  color: var(--white-color);
+  padding-left: 10px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1024px;
+  margin: 0 auto;
+}

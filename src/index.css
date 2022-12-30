@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #0074a6;
+  --primary-color-light: #88a47c;
+  --white-color: #ffff;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  font-weight: 600;
+  color: var(--primary-color);
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--primary-color-light);
+}
+
+.container {
+  width: 1024px;
+  margin: 25px auto;
+}
+
+button {
+  cursor: pointer;
+}

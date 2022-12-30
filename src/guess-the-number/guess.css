@@ -1,0 +1,39 @@
+.main-title {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.game-input input {
+  padding: 5px 5px;
+  font-size: 15px;
+  color: #444950;
+}
+
+.game-btns {
+  margin: 10px 0;
+}
+
+.game-btns button {
+  margin-right: 10px;
+  background-color: var(--primary-color);
+  border: 0;
+  padding: 8px 10px;
+  color: white;
+}
+
+.guesses {
+  display: flex;
+}
+
+.guesses span {
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+.guesslist {
+  display: flex;
+}
+
+.guesslist li {
+  padding-left: 5px;
+}

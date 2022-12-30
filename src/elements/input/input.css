@@ -1,0 +1,12 @@
+/* Select Inputs */
+.select-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.select-input {
+  padding: 5px 5px;
+  margin-left: 20px;
+  color: #333;
+  width: 150px;
+}

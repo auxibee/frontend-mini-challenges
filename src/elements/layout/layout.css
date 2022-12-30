@@ -1,0 +1,16 @@
+.main-container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main";
+
+  gap: 15px;
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}

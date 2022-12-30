@@ -1,0 +1,17 @@
+.list-container {
+  display: flex;
+}
+
+.panel li {
+  margin: 10px 0;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px 0 25px;
+}
+
+.btn-container button {
+  margin: 10px 0;
+}

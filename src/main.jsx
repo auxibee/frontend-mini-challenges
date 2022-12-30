@@ -9,7 +9,7 @@ import Stocks from "./stocks/stocks";
 import GuessGame from "./guess-the-number/guessnumber";
 import TelephoneFormatter from "./telephone-formatter/telephoneformatter";
 import TransferList from "./transferlist/transferlist";
-import Theme, { ThemeContextProvider } from "./elements/theme/theme";
+import Theme, { ThemeContextProvider } from "./theme/theme";
 import AlertPage from "./alert/alert";
 import Rating from "./rating/rating";
 import ChipInput from "./chips-input/chips-input";

@@ -13,6 +13,8 @@ const pages = [
   { name: "Otp", link: "otp" },
   { name: "Stocks", link: "stocks" },
   { name: "Typing Game", link: "typing" },
+  { name: "Counter", link: "counter" },
+  { name: "Password Strength", link: "password" },
 ];
 
 const HomePage = () => {

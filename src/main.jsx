@@ -18,6 +18,8 @@ import HomePage from "./pages/homepage";
 import MainLayout from "./elements/layout/layout";
 
 import TypingGame from "./typing/typing";
+import Counter from "./counter/counter";
+import PasswordStrength from "./password-strength/password-strenght";
 
 const AppWrapper = () => {
   return (
@@ -50,6 +52,8 @@ const AppRoutes = () => {
         <Route path="/otp" element={<OtpInput />} />
         <Route path="/stocks" element={<Stocks />} />
         <Route path="/typing" element={<TypingGame />} />
+        <Route path="/counter" element={<Counter />} />
+        <Route path="/password" element={<PasswordStrength />} />
       </Route>
     </Routes>
   );

@@ -1,0 +1,22 @@
+.count {
+  font-size: 40px;
+  font-weight: 600;
+  color: #333;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.btns {
+  text-align: center;
+}
+
+.btns button {
+  background-color: var(--primary-color);
+  margin: 5px 2px;
+  padding: 5px 15px;
+  border: 0;
+}
+
+.factor input {
+  width: 30px;
+}

@@ -1,6 +1,10 @@
 import { useState } from "react";
 import Button from "../elements/button/button";
+import Header from "../elements/header/header";
 import Input from "../elements/input";
+import Main from "../elements/main/main";
+
+import "./counter.css";
 
 const Counter = () => {
   const [counter, setCounter] = useState(0);
@@ -23,24 +27,27 @@ const Counter = () => {
 
   return (
     <>
-      <p>{counter}</p>
-      <div>
-        <Button value="+" handleClick={handleCounter}>
-          +
-        </Button>
-        <Button value="-" handleClick={handleCounter}>
-          -
-        </Button>
+      <Header title="Counter" />
+      <Main>
+        <h1 className="count">{counter}</h1>
+        <div className="btns">
+          <Button value="+" handleClick={handleCounter}>
+            +
+          </Button>
+          <Button value="-" handleClick={handleCounter}>
+            -
+          </Button>
 
-        <p>
-          increment/Decrement by:
-          <Input
-            value={factor}
-            handleChange={(e) => setFactor(e.target.value)}
-          />
-        </p>
-        <Button handleClick={handleReset}>reset</Button>
-      </div>
+          <p className="factor">
+            increment/Decrement by:
+            <Input
+              value={factor}
+              handleChange={(e) => setFactor(e.target.value)}
+            />
+          </p>
+          <Button handleClick={handleReset}>reset</Button>
+        </div>
+      </Main>
     </>
   );
 };

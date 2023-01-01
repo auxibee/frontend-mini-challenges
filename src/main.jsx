@@ -20,6 +20,7 @@ import MainLayout from "./elements/layout/layout";
 import TypingGame from "./typing/typing";
 import Counter from "./counter/counter";
 import PasswordStrength from "./password-strength/password-strenght";
+import TodoList from "./todolist/todolist";
 
 const AppWrapper = () => {
   return (
@@ -54,6 +55,7 @@ const AppRoutes = () => {
         <Route path="/typing" element={<TypingGame />} />
         <Route path="/counter" element={<Counter />} />
         <Route path="/password" element={<PasswordStrength />} />
+        <Route path="/todo" element={<TodoList />} />
       </Route>
     </Routes>
   );

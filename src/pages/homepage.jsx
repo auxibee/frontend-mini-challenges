@@ -15,6 +15,7 @@ const pages = [
   { name: "Typing Game", link: "typing" },
   { name: "Counter", link: "counter" },
   { name: "Password Strength", link: "password" },
+  { name: "Todo List", link: "todo" },
 ];
 
 const HomePage = () => {

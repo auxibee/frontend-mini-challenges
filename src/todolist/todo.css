@@ -1,0 +1,24 @@
+.add-todo {
+  text-align: center;
+}
+.todo-item {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.todo-item span,
+.todo-item input {
+  width: 150px;
+}
+
+.todo-item input {
+  margin: 3px 0;
+}
+
+.todo-list button {
+  border: 0;
+  background-color: transparent;
+}

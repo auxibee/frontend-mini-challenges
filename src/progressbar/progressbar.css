@@ -1,0 +1,18 @@
+.bar-btns button {
+  color: #fff;
+  border: 0;
+  padding: 10px 15px;
+  margin: 0 10px;
+}
+
+.reset {
+  background-color: #478778;
+}
+
+.stop {
+  background-color: #d2042d;
+}
+
+.start {
+  background-color: var(--primary-color);
+}

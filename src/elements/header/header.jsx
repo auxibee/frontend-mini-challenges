@@ -7,7 +7,16 @@ const Header = ({ title, showFullPage = true }) => {
       <div className="header-wrapper">
         <nav>{showFullPage && <Link to="/">Home</Link>}</nav>
         <h1>{title}</h1>
-        <nav>{showFullPage && <Link to="/">GitHub</Link>}</nav>
+        <nav>
+          {showFullPage && (
+            <a
+              href="https://github.com/auxibee/frontend-mini-challenges/"
+              target="_blank"
+            >
+              GitHub
+            </a>
+          )}
+        </nav>
       </div>
     </header>
   );

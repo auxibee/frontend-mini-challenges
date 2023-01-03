@@ -7,7 +7,7 @@ const pages = [
   { name: "Transfer List", link: "transfer-list" },
   { name: "Chips Input", link: "chips-input" },
   { name: "Guess The Number", link: "guess-the-number" },
-  { name: "Alert", link: "alert" },
+  // { name: "Alert[Not completed]", link: "alert" },
   { name: "Telephone Formater", link: "telephone-formatter" },
   { name: "Theme", link: "theme" },
   { name: "Otp", link: "otp" },
@@ -16,6 +16,7 @@ const pages = [
   { name: "Counter", link: "counter" },
   { name: "Password Strength", link: "password" },
   { name: "Todo List", link: "todo" },
+  { name: "Progress Bar", link: "progressbar" },
 ];
 
 const HomePage = () => {

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect, createContext, useContext } from "react";
 import ReactDOM from "react-dom/client";
 import { Outlet, Routes, Route, BrowserRouter } from "react-router-dom";
 
@@ -21,6 +21,8 @@ import TypingGame from "./typing/typing";
 import Counter from "./counter/counter";
 import PasswordStrength from "./password-strength/password-strenght";
 import TodoList from "./todolist/todolist";
+import ProgressBar from "./progressbar/progressbar";
+import Button from "./elements/button/button";
 
 const AppWrapper = () => {
   return (
@@ -56,6 +58,7 @@ const AppRoutes = () => {
         <Route path="/counter" element={<Counter />} />
         <Route path="/password" element={<PasswordStrength />} />
         <Route path="/todo" element={<TodoList />} />
+        <Route path="/progressbar" element={<ProgressBar />} />
       </Route>
     </Routes>
   );
